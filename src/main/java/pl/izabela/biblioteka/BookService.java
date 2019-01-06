@@ -52,10 +52,10 @@ public class BookService {
     }
 
 
-    public BookResponse getOne(Long id) {
-        Book book = bookRepository.findById(id).get();
-        return new BookResponse(book.getTitle(),book.getBookAuthor());
-    }
+//    public BookResponse getOne(Long id) {
+//        Book book = bookRepository.findById(id).get();
+//        return new BookResponse(book.getTitle(),book.getBookAuthor());
+//    }
 
     public void removeBook(Long id){
         bookRepository.removeBookByIdBook(id);
