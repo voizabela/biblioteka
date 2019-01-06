@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/biblioteka
+    username: postgres
+    password: lovem
+    driver-class-name: org.postgresql.Driver
+
+  jpa.properties.hibernate.jdbc.lob.non_contextual_creation: true
+  jpa.hibernate.ddl-auto: create
